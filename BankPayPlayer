@@ -1,0 +1,7 @@
+do(game, player) {
+  
+  game.bank.withdraw(this.cash);
+  
+  player.deposit(this.cash);
+
+}
